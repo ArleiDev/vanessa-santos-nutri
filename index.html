@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vanessa Santos | Nutricionista</title>
+  <meta name="description" content="Acompanhamento nutricional personalizado para saúde hormonal, composição corporal, emagrecimento e qualidade de vida. Presencial ou online." />
+  <meta name="theme-color" content="#F8F4EE" />
+  <meta property="og:title" content="Vanessa Santos | Nutricionista" />
+  <meta property="og:description" content="Cuidar de você é o começo. Nutrição personalizada com foco em saúde da mulher." />
+  <meta property="og:image" content="assets/img/vanessa-maca.webp" />
+  <link rel="icon" href="assets/img/apple.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Vanessa Santos Nutricionista">
+        <img src="assets/img/apple.png" alt="" class="brand__apple" width="34" height="35" />
+        <span class="brand__text">
+          <span class="brand__name">Vanessa Santos</span>
+          <span class="brand__role" data-i18n="brand.role">Nutricionista</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Menu">
+        <a href="#sobre" data-i18n="nav.about">Sobre mim</a>
+        <a href="#foco" data-i18n="nav.focus">Meu foco</a>
+        <a href="#como-funciona" data-i18n="nav.how">Como funciona</a>
+        <a href="#planos" data-i18n="nav.plans">Planos</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang" role="group" aria-label="Idioma / Language">
+          <button type="button" class="lang__btn" data-lang="pt">PT</button>
+          <button type="button" class="lang__btn" data-lang="en">EN</button>
+          <button type="button" class="lang__btn" data-lang="es">ES</button>
+          <span class="lang__pill" aria-hidden="true"></span>
+        </div>
+        <a class="btn btn--small btn--dark js-wa" href="#" target="_blank" rel="noopener">
+          <span data-i18n="cta.schedule">Agendar</span>
+        </a>
+        <button class="burger" type="button" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <a href="#sobre" data-i18n="nav.about">Sobre mim</a>
+      <a href="#foco" data-i18n="nav.focus">Meu foco</a>
+      <a href="#como-funciona" data-i18n="nav.how">Como funciona</a>
+      <a href="#planos" data-i18n="nav.plans">Planos</a>
+      <a class="btn btn--gold js-wa" href="#" target="_blank" rel="noopener" data-i18n="cta.whatsapp">Agendar pelo WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <!-- blurred decor -->
+      <img class="decor decor--blur-lg" data-depth="0.35" src="assets/img/branch1.webp" alt="" style="--x: 86%; --y: 4%; --w: 300px; --r: 130deg" />
+      <img class="decor decor--blur-md" data-depth="0.2" src="assets/img/apple1.webp" alt="" style="--x: -3%; --y: 64%; --w: 170px; --r: -12deg" />
+      <img class="decor decor--blur-sm" data-depth="0.5" src="assets/img/leaf1.webp" alt="" style="--x: 6%; --y: 4%; --w: 120px; --r: -40deg" />
+      <img class="decor decor--blur-lg" data-depth="0.6" src="assets/img/euca.webp" alt="" style="--x: 92%; --y: 52%; --w: 240px; --r: 20deg" />
+      <span class="hero__glow hero__glow--1"></span>
+      <span class="hero__glow hero__glow--2"></span>
+
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <span class="pill" data-anim="fade-up">
+            <span class="pill__dot"></span>
+            <span data-i18n="hero.pill">Nutrição • Saúde da mulher</span>
+          </span>
+          <h1 class="hero__title" data-anim="fade-up" data-delay="1">
+            <span data-i18n="hero.title1">Cuidar de você</span>
+            <em data-i18n="hero.title2">é o começo.</em>
+          </h1>
+
+          <div class="hero__lead" data-anim="fade-up" data-delay="2">
+            <img src="assets/img/bowl.webp" alt="" class="hero__plate" width="84" height="84" />
+            <p data-i18n-html="hero.lead">Acompanhamento nutricional <strong>personalizado</strong> para saúde hormonal, composição corporal, emagrecimento e <strong>qualidade de vida</strong>.</p>
+          </div>
+
+          <div class="hero__ctas" data-anim="fade-up" data-delay="3">
+            <a class="btn btn--gold btn--lg js-wa" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+              <span data-i18n="cta.whatsapp">Agendar pelo WhatsApp</span>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#como-funciona" data-i18n="cta.how">Como funciona</a>
+          </div>
+
+          <ul class="hero__facts" data-anim="fade-up" data-delay="4">
+            <li><strong data-i18n="facts.mode">Presencial</strong><span data-i18n="facts.modeSub">ou online</span></li>
+            <li><strong data-i18n="facts.pos">Pós-graduada</strong><span data-i18n="facts.posSub">Emagrecimento e Metabolismo</span></li>
+            <li><strong>CRN4</strong><span>23101806</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" data-anim="rise">
+          <div class="hero__photo">
+            <span class="hero__arch" aria-hidden="true"></span>
+            <span class="hero__ring" aria-hidden="true"></span>
+            <img class="hero__img" src="assets/img/vanessa-hero-crop.webp" alt="Vanessa Santos, nutricionista" width="530" height="913" fetchpriority="high" />
+            <img class="decor-float decor-float--apple" data-depth="0.8" src="assets/img/apple2.webp" alt="" />
+            <img class="decor-float decor-float--leaf" data-depth="1.1" src="assets/img/leaf2.webp" alt="" />
+
+            <a class="badge-rotate js-wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 200 200" class="badge-rotate__text" aria-hidden="true">
+                <defs><path id="circlePath" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0" /></defs>
+                <text><textPath href="#circlePath" textLength="458" lengthAdjust="spacingAndGlyphs" data-i18n="badge.text">AGENDE SUA CONSULTA • AGENDE SUA CONSULTA •</textPath></text>
+              </svg>
+              <span class="badge-rotate__center"><img src="assets/img/apple.png" alt="" /></span>
+            </a>
+
+            <div class="glass-card glass-card--a" data-depth="0.5">
+              <span class="glass-card__icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 12h4l3-7 4 14 3-7h4"/></svg>
+              </span>
+              <span>
+                <strong data-i18n="glass.a1">Bioimpedância</strong>
+                <small data-i18n="glass.a2">+ dobras cutâneas</small>
+              </span>
+            </div>
+            <div class="glass-card glass-card--b" data-depth="0.7">
+              <span class="glass-card__icon glass-card__icon--wine">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 21s-7-4.4-9.3-9A5.3 5.3 0 0 1 12 6a5.3 5.3 0 0 1 9.3 6c-2.3 4.6-9.3 9-9.3 9Z"/></svg>
+              </span>
+              <span>
+                <strong data-i18n="glass.b1">Saúde da mulher</strong>
+                <small data-i18n="glass.b2">SOP • Menopausa</small>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ribbons -->
+      <div class="ribbons" aria-hidden="true">
+        <div class="ribbon ribbon--wine">
+          <div class="ribbon__track" data-i18n-ribbon="ribbon.a"></div>
+        </div>
+        <div class="ribbon ribbon--gold">
+          <div class="ribbon__track ribbon__track--rev" data-i18n-ribbon="ribbon.b"></div>
+        </div>
+      </div>
+
+      <!-- feature cards -->
+      <div class="container features">
+        <article class="feature" data-anim="fade-up">
+          <span class="feature__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 3h6M10 3v6L5 18a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3M7.5 14h9"/></svg>
+          </span>
+          <h3 data-i18n="feat.1t">Avaliação completa</h3>
+          <p data-i18n="feat.1d">Bioimpedância, dobras cutâneas e análise de exames para entender o seu corpo de verdade.</p>
+        </article>
+        <article class="feature" data-anim="fade-up" data-delay="1">
+          <span class="feature__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 7c-1-3-4-4-6-3 0 3 2 5 6 5m0-2c1-3 4-4 6-3 0 3-2 5-6 5M12 9v12M8 21h8"/></svg>
+          </span>
+          <h3 data-i18n="feat.2t">Plano feito para você</h3>
+          <p data-i18n="feat.2d">Estratégia alimentar construída para sua rotina, preferências e objetivo — sem fórmula pronta.</p>
+        </article>
+        <article class="feature" data-anim="fade-up" data-delay="2">
+          <span class="feature__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.4A8 8 0 1 1 21 12ZM8.5 12h.01M12 12h.01M15.5 12h.01"/></svg>
+          </span>
+          <h3 data-i18n="feat.3t">Você não fica sozinha</h3>
+          <p data-i18n="feat.3d">Orientações, acompanhamento da evolução e suporte durante todo o processo.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE ================= -->
+    <section class="about section" id="sobre">
+      <img class="decor decor--blur-md" data-depth="0.3" src="assets/img/branch2.webp" alt="" style="--x: -4%; --y: 10%; --w: 200px; --r: -25deg" />
+      <img class="decor decor--blur-lg" data-depth="0.45" src="assets/img/apple1.webp" alt="" style="--x: 90%; --y: 70%; --w: 190px; --r: 18deg" />
+      <div class="container about__grid">
+        <div class="about__media" data-anim="fade-right">
+          <div class="frame">
+            <img src="assets/img/vanessa-sobre.webp" alt="Vanessa Santos sorrindo" loading="lazy" width="1024" height="1536" />
+          </div>
+          <div class="about__stamp">
+            <img src="assets/img/apple.png" alt="" />
+            <span data-i18n="about.stamp">Nutrição que se adapta à vida real</span>
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="eyebrow" data-anim="fade-up" data-i18n="about.eyebrow">Sobre mim</span>
+          <h2 class="title" data-anim="fade-up" data-delay="1"><span data-i18n="about.title1">Muito prazer,</span> <em data-i18n="about.title2">eu sou a Vanessa.</em></h2>
+          <span class="rule" data-anim="grow"></span>
+          <p class="about__lead" data-anim="fade-up" data-delay="2" data-i18n="about.lead">Sou nutricionista e acredito em uma nutrição que se adapta à vida real.</p>
+          <p data-anim="fade-up" data-delay="3" data-i18n="about.p1">Meu acompanhamento é individualizado e considera rotina, hábitos, objetivos, composição corporal e necessidades de cada paciente.</p>
+          <p data-anim="fade-up" data-delay="4" data-i18n="about.p2">Meu trabalho é voltado principalmente para a saúde da mulher, com estratégias personalizadas e acompanhamento ao longo do processo.</p>
+          <ul class="creds" data-anim="fade-up" data-delay="5">
+            <li><span class="creds__ic">🎓</span><span data-i18n="about.c1">Pós-graduada em Emagrecimento e Metabolismo</span></li>
+            <li><span class="creds__ic">🌸</span><span data-i18n="about.c2">Pós-graduanda em Saúde da Mulher e Estética</span></li>
+            <li><span class="creds__ic">🌿</span><span data-i18n="about.c3">CRN4 23101806 • Presencial ou online</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOCO ================= -->
+    <section class="focus section" id="foco">
+      <div class="container">
+        <div class="bubbles" aria-hidden="true">
+          <span class="bubble" style="--bx: 6%; --by: 10%; --bd: 0s" data-i18n="bub.1">ciclo irregular</span>
+          <span class="bubble" style="--bx: 24%; --by: 52%; --bd: 1.2s" data-i18n="bub.2">cansaço constante</span>
+          <span class="bubble" style="--bx: 70%; --by: 6%; --bd: .6s" data-i18n="bub.3">inchaço</span>
+          <span class="bubble" style="--bx: 80%; --by: 54%; --bd: 1.8s" data-i18n="bub.4">ondas de calor</span>
+          <span class="bubble" style="--bx: 44%; --by: -6%; --bd: 2.4s" data-i18n="bub.5">dificuldade para emagrecer</span>
+        </div>
+        <div class="section-head">
+          <span class="eyebrow" data-anim="fade-up" data-i18n="focus.eyebrow">Para quem é</span>
+          <h2 class="title" data-anim="fade-up" data-delay="1"><span data-i18n="focus.title1">Meu</span> <em data-i18n="focus.title2">foco</em></h2>
+          <p class="section-sub" data-anim="fade-up" data-delay="2" data-i18n="focus.sub">Estratégias personalizadas para cada fase e necessidade da mulher.</p>
+        </div>
+
+        <div class="focus__grid">
+          <article class="fcard fcard--1" data-anim="fade-up" data-tilt>
+            <img class="fcard__obj" src="assets/img/apple1.webp" alt="" loading="lazy" />
+            <div class="fcard__body">
+              <span class="fcard__tag" data-i18n="focus.c1tag">Hormônios</span>
+              <h3 data-i18n="focus.c1t">Saúde hormonal & Menopausa</h3>
+              <p data-i18n="focus.c1d">Alimentação estratégica para equilibrar os hormônios e atravessar cada fase com mais bem-estar.</p>
+            </div>
+          </article>
+          <article class="fcard fcard--2" data-anim="fade-up" data-delay="1" data-tilt>
+            <img class="fcard__obj fcard__obj--leaf" src="assets/img/leaf1.webp" alt="" loading="lazy" />
+            <div class="fcard__body">
+              <span class="fcard__tag" data-i18n="focus.c2tag">Ciclo</span>
+              <h3 data-i18n="focus.c2t">SOP & Endometriose</h3>
+              <p data-i18n="focus.c2d">Nutrição que ajuda a controlar sintomas, inflamação e a regular o seu ciclo.</p>
+            </div>
+          </article>
+          <article class="fcard fcard--3" data-anim="fade-up" data-delay="2" data-tilt>
+            <img class="fcard__obj fcard__obj--bowl" src="assets/img/bowl.webp" alt="" loading="lazy" />
+            <div class="fcard__body">
+              <span class="fcard__tag" data-i18n="focus.c3tag">Corpo</span>
+              <h3 data-i18n="focus.c3t">Emagrecimento & Recomposição</h3>
+              <p data-i18n="focus.c3d">Perder gordura e ganhar massa magra de forma sustentável, sem dietas restritivas.</p>
+            </div>
+          </article>
+          <article class="fcard fcard--4" data-anim="fade-up" data-delay="3" data-tilt>
+            <img class="fcard__obj fcard__obj--branch" src="assets/img/branch2.webp" alt="" loading="lazy" />
+            <div class="fcard__body">
+              <span class="fcard__tag" data-i18n="focus.c4tag">Bem-estar</span>
+              <h3 data-i18n="focus.c4t">Saúde & Qualidade de vida</h3>
+              <p data-i18n="focus.c4d">Mais energia, disposição e uma relação leve e saudável com a comida.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COMO FUNCIONA ================= -->
+    <section class="how section" id="como-funciona">
+      <img class="decor decor--blur-sm" data-depth="0.25" src="assets/img/leaf2.webp" alt="" style="--x: 1%; --y: 8%; --w: 150px; --r: 30deg" />
+      <img class="decor decor--blur-lg" data-depth="0.4" src="assets/img/branch1.webp" alt="" style="--x: 88%; --y: 76%; --w: 280px; --r: -60deg" />
+      <div class="container">
+        <div class="how__head">
+          <div>
+            <span class="eyebrow" data-anim="fade-up" data-i18n="how.eyebrow">Passo a passo</span>
+            <h2 class="title" data-anim="fade-up" data-delay="1"><span data-i18n="how.title1">Como</span> <em data-i18n="how.title2">funciona</em></h2>
+            <p class="section-sub" data-anim="fade-up" data-delay="2" data-i18n="how.sub">Um acompanhamento individualizado, com estratégia, suporte e ajustes ao longo do processo.</p>
+          </div>
+          <ul class="chips" data-anim="fade-up" data-delay="2">
+            <li data-i18n="chip.1">📍 Presencial ou online</li>
+            <li data-i18n="chip.2">⚖️ Bioimpedância</li>
+            <li data-i18n="chip.3">📏 Dobras cutâneas</li>
+            <li data-i18n="chip.4">🧪 Análise de exames</li>
+            <li data-i18n="chip.5">🥗 Receitas</li>
+            <li data-i18n="chip.6">💊 Suplementação</li>
+          </ul>
+        </div>
+
+        <div class="how__grid">
+          <ol class="steps">
+            <li class="step" data-anim="fade-right">
+              <span class="step__num">01</span>
+              <div>
+                <h3 data-i18n="step.1t">Avaliação completa</h3>
+                <p data-i18n="step.1d">Na primeira consulta, conheço sua história, rotina, alimentação, sintomas, exames e objetivos. Avalio sua composição corporal com bioimpedância e dobras cutâneas.</p>
+              </div>
+            </li>
+            <li class="step" data-anim="fade-right" data-delay="1">
+              <span class="step__num">02</span>
+              <div>
+                <h3 data-i18n="step.2t">Plano personalizado</h3>
+                <p data-i18n="step.2d">A estratégia alimentar é construída para sua realidade, preferências, rotina e objetivo — sem fórmula pronta.</p>
+              </div>
+            </li>
+            <li class="step" data-anim="fade-right" data-delay="2">
+              <span class="step__num">03</span>
+              <div>
+                <h3 data-i18n="step.3t">Acompanhamento próximo</h3>
+                <p data-i18n="step.3d">Você não fica sozinha após a consulta: recebe orientações, acompanhamento da evolução e suporte durante o processo.</p>
+              </div>
+            </li>
+            <li class="step" data-anim="fade-right" data-delay="3">
+              <span class="step__num">04</span>
+              <div>
+                <h3 data-i18n="step.4t">Ajustes e evolução</h3>
+                <p data-i18n="step.4d">A cada etapa, avaliamos resultados, dificuldades e mudanças no seu momento para ajustar o planejamento.</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="how__visual" data-anim="zoom">
+            <span class="how__circle"></span>
+            <img class="how__photo" src="assets/img/vanessa-sobre-cut.webp" alt="Vanessa Santos" loading="lazy" />
+            <img class="how__apple" data-depth="0.6" src="assets/img/apple2.webp" alt="" loading="lazy" />
+            <img class="how__leaf" data-depth="0.9" src="assets/img/euca.webp" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="goal" data-anim="fade-up">
+          <img src="assets/img/apple.png" alt="" class="goal__apple" />
+          <div>
+            <h3 data-i18n="goal.t">O objetivo do acompanhamento</h3>
+            <p data-i18n="goal.d">Cuidar da sua saúde, melhorar sua relação com a alimentação e construir resultados sustentáveis, respeitando sua individualidade e seu momento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PLANOS ================= -->
+    <section class="plans section" id="planos">
+      <img class="decor decor--blur-md" data-depth="0.35" src="assets/img/apple2.webp" alt="" style="--x: 2%; --y: 70%; --w: 160px; --r: 10deg" />
+      <img class="decor decor--blur-lg" data-depth="0.5" src="assets/img/leaf1.webp" alt="" style="--x: 90%; --y: 6%; --w: 200px; --r: 40deg" />
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-anim="fade-up" data-i18n="plans.eyebrow">Investimento</span>
+          <h2 class="title" data-anim="fade-up" data-delay="1"><span data-i18n="plans.title1">Planos de</span> <em data-i18n="plans.title2">acompanhamento</em></h2>
+          <p class="section-sub" data-anim="fade-up" data-delay="2" data-i18n="plans.sub">Escolha o formato que melhor combina com o seu momento.</p>
+        </div>
+
+        <div class="plans__grid">
+          <article class="plan" data-anim="fade-up" data-tilt>
+            <span class="plan__label" data-i18n="plan.1label">Consulta avulsa</span>
+            <div class="plan__price"><small>R$</small>150<span>,00</span></div>
+            <p class="plan__desc" data-i18n="plan.1desc">Avaliação completa + planejamento nutricional individualizado.</p>
+            <a class="btn btn--outline js-wa" data-plan="single" href="#" target="_blank" rel="noopener" data-i18n="plan.cta">Quero agendar</a>
+          </article>
+
+          <article class="plan plan--featured" data-anim="fade-up" data-delay="1" data-tilt>
+            <span class="plan__ribbon" data-i18n="plan.best">Mais escolhido</span>
+            <span class="plan__label" data-i18n="plan.2label">Pacote de acompanhamento</span>
+            <div class="plan__big" data-i18n="plan.2big">3 consultas</div>
+            <div class="plan__price"><small>R$</small>420<span>,00</span></div>
+            <p class="plan__desc" data-i18n="plan.2desc">Equivale a R$ 140,00 por consulta.</p>
+            <a class="btn btn--gold js-wa" data-plan="package" href="#" target="_blank" rel="noopener" data-i18n="plan.cta">Quero agendar</a>
+          </article>
+
+          <article class="plan plan--include" data-anim="fade-up" data-delay="2">
+            <h3 data-i18n="inc.t">O que está incluso</h3>
+            <ul class="checks">
+              <li data-i18n="inc.1">Avaliação com bioimpedância e dobras cutâneas</li>
+              <li data-i18n="inc.2">Análise de exames laboratoriais, quando disponíveis</li>
+              <li data-i18n="inc.3">Plano alimentar personalizado + orientações e receitas</li>
+              <li data-i18n="inc.4">Suplementação, quando necessária, e ajustes ao longo do acompanhamento</li>
+            </ul>
+            <div class="plan__follow">
+              <strong data-i18n="follow.t">Acompanhamento</strong>
+              <p data-i18n="follow.d">Primeiro retorno em aproximadamente 30 dias. Depois, os intervalos são ajustados conforme sua evolução e necessidade.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta section">
+      <div class="container">
+        <div class="cta__box" data-anim="zoom">
+          <img class="cta__decor cta__decor--1" data-depth="0.5" src="assets/img/branch1.webp" alt="" />
+          <img class="cta__decor cta__decor--2" data-depth="0.8" src="assets/img/apple1.webp" alt="" />
+          <div class="cta__text">
+            <span class="eyebrow eyebrow--light" data-i18n="cta.eyebrow">Presencial ou online</span>
+            <h2 class="title title--light"><span data-i18n="cta.title1">Vamos</span> <em data-i18n="cta.title2">começar?</em></h2>
+            <p data-i18n="cta.sub">Seu objetivo merece um planejamento feito para você.</p>
+            <a class="btn btn--gold btn--lg js-wa" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+              <span data-i18n="cta.whatsapp">Agendar pelo WhatsApp</span>
+            </a>
+          </div>
+          <div class="cta__photo">
+            <img src="assets/img/vanessa-maca.webp" alt="Vanessa Santos com uma maçã" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/img/logo.png" alt="Vanessa Santos Nutricionista" class="footer__logo" />
+        <p data-i18n="footer.tag">Nutrição personalizada com foco em saúde da mulher.</p>
+      </div>
+      <div class="footer__links">
+        <a href="https://www.instagram.com/nutri.vaanessa_santos/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm5 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm5.5-1.5h.01"/></svg>
+          @nutri.vaanessa_santos
+        </a>
+        <a class="js-wa" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>
+          (22) 99843-6704
+        </a>
+        <span>CRN4 23101806</span>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Vanessa Santos • <span data-i18n="brand.role">Nutricionista</span></span>
+      <a href="#top" class="to-top" data-i18n="footer.top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <a class="wa-float js-wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
