@@ -239,6 +239,10 @@
         const v = dict[el.dataset.i18nHtml];
         if (typeof v === "string") el.innerHTML = v;
       });
+      $$("[data-i18n-ph]").forEach((el) => {
+        const v = dict[el.dataset.i18nPh];
+        if (typeof v === "string") el.placeholder = v;
+      });
       $$("[data-i18n-ribbon]").forEach((el) => buildRibbon(el, dict[el.dataset.i18nRibbon]));
       $$(".js-wa").forEach((a) => {
         const plan = a.dataset.plan;
@@ -354,6 +358,17 @@
       card.addEventListener("mouseleave", () => { card.style.transform = ""; });
     });
   }
+
+  /* ---------------- API para o formulário (booking.js) ---------------- */
+  window.VS = {
+    phone: WHATSAPP,
+    lang: () => current,
+    t: (key) => (I18N[current] && I18N[current][key]) ?? I18N.pt[key] ?? key,
+    extend(dicts) {
+      Object.keys(dicts).forEach((l) => Object.assign(I18N[l] || (I18N[l] = {}), dicts[l]));
+      applyLang(current, false);
+    },
+  };
 
   /* ---------------- Init ---------------- */
   $("#year").textContent = new Date().getFullYear();
